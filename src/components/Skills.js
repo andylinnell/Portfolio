@@ -25,7 +25,7 @@ export default function Skills() {
         dots: false,
         autoplay: true,
         infinite: true,
-        slidesToShow: 2,
+        slidesToShow: 4,
         slidesToScroll: 1
       };
 
@@ -57,15 +57,4 @@ export default function Skills() {
         </div>
     )
 }
-
-
-let me = {
-    name: "Andy Linnell",
-    code: ["Javascript", "Python", "CSS"],
-    web: ["React", "Node", "Express", "MongoDB"],
-    cloud: ["Google Cloud", "Firebase"],
-    agile: ["Scrum", "Kanban", "Jira"],
-    message: ["Focused", "Patient", "Team Player"]
-}
-
 

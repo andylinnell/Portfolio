@@ -28,7 +28,7 @@ export default function Hiro () {
                     <h1 className="text-xl text-gray-400">Hi, I'm</h1>
                     <h1 className="text-2xl font-bold">Andy Linnell</h1>
                     <p class="text-xl font-bold text-gray-300">Software Engineer</p>
-                    <p className="text-md font-light text-gray-400 ">Enthusiastic and motivated self-learning in Information Technology. Interested in exploring about Computer Network, Cloud Computing, DevSecops, and Web Development. I am currently looking for more experience in my field.</p>
+                    <p className="text-xl font-light text-gray-400 ">Enthusiastic and motivated self-learning in Information Technology. Interested in exploring about Computer Network, Cloud Computing, DevSecops, and Web Development. I am currently looking for more experience in my field.</p>
                 </div>
                 <a href='https://bocacode.com/candidates/software-engineer/andy-linnell' className='mt-2 block'>Got to my Candidate Page<FontAwesomeIcon className='ml-2' icon={faCircleArrowRight}/> </a>
                 
