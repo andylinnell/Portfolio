@@ -18,7 +18,7 @@ import firebase from "../assets/skills/google-firebase-icon.svg"
 import bootstarp from "../assets/skills/bootstrap-5-logo-icon.svg"
 
 
-import hr from "../assets/curve-hr.svg"
+// import hr from "../assets/curve-hr.svg"
 
 export default function Skills() {
     const settings = {
@@ -31,29 +31,30 @@ export default function Skills() {
 
     return (
         <div id="skills" className="mt-4 text-white">
-            <h1 className="text-2xl font-bold">Skills</h1>
-            <p className="font-light text-gray-400">Here are some of my skills</p>
+            <h1 className="text-4xl font-bold flex items-center sm:justify-center" style={{ height: '40px' }}>Skills</h1>
+            <p className="font-light text-gray-400 sm:text-center text-left ">Here are some of my strongest skills</p>
 
-            <div className="mt-4">
+
+            <div className="mt-4" style={{ paddingBottom: "50px" }}>
                 <Slider {...settings}>
-                <SkillCard name="Python" experience="1 years" img={python} />
-                <SkillCard name="Javascript" experience="1 years" img={javascript} />
-                <SkillCard name="React" experience="1 years" img={reactIcon} />
-                <SkillCard name="Tailwind" experience="1 years" img={tailwind} />
-                <SkillCard name="Git" experience="1 years" img={git} />
-                <SkillCard name="Express" experience="1 years" img={express} />
-                <SkillCard name="HTML 5" experience="1 years" img={html} />
-                <SkillCard name="Node.js" experience="1 years" img={nodejs} />
-                <SkillCard name="MongoDB" experience="1 years" img={mongo} />
-                <SkillCard name="CSS" experience="1 years" img={css} />
-                <SkillCard name="Google Cloud" experience="1 years" img={gcp} />
-                <SkillCard name="Firebase" experience="1 years" img={firebase} />
-                <SkillCard name="Bootstrap" experience="1 years" img={bootstarp} />
+                <SkillCard name="Python"  img={python} />
+                <SkillCard name="Javascript"  img={javascript} />
+                <SkillCard name="React"  img={reactIcon} />
+                <SkillCard name="Tailwind"  img={tailwind} />
+                <SkillCard name="Git"  img={git} />
+                <SkillCard name="Express"  img={express} />
+                <SkillCard name="HTML 5"  img={html} />
+                <SkillCard name="Node.js"  img={nodejs} />
+                <SkillCard name="MongoDB"  img={mongo} />
+                <SkillCard name="CSS"  img={css} />
+                <SkillCard name="Google Cloud"  img={gcp} />
+                <SkillCard name="Firebase"  img={firebase} />
+                <SkillCard name="Bootstrap"  img={bootstarp} />
 
 
                 </Slider>
             </div>
-            <img src={hr} className="w-full mt-8 md:h-3" alt="hr" />
+            {/* <img src={hr} className="w-full mt-8 md:h-3" alt="hr" /> */}
         </div>
     )
 }
