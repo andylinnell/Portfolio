@@ -49,7 +49,7 @@ export default function Hiro() {
             </p>
           </div>
           <a href="https://bocacode.com/candidates/software-engineer/andy-linnell" className="mt-2 block">
-            Got to my Candidate Page
+            Go to my Candidate Page
             <FontAwesomeIcon className="ml-2" icon={faCircleArrowRight} />
           </a>
         </div>
