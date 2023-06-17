@@ -12,7 +12,7 @@ import 'aos/dist/aos.css';
 
 function App() {
     useEffect(() => {
-      document.title = 'Andy Linnell';
+      document.title = 'Andy Linnell: Software Engineer';
       AOS.init();
     }, []);
   return (

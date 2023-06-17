@@ -5,12 +5,12 @@ import {  faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function ProjectCard(props) {
     return (
-        <div data-aos="fade-up" data-aos-duration="500" data-aos-offset="100" className="w-full md:w-2/6 bg-dark-100 rounded-md py-4 px-4">
+        <div data-aos="fade-up" data-aos-duration="500" data-aos-offset="100" className="w-full md:w-3/6 bg-dark-100 rounded-md py-4 px-4">
             {/* <img src={props.img} className="w-20 max-h-20 mx-auto" alt={props.name}></img> */}
             <div className="mt-2">
                 <h1 className="font-bold md:text-xl">{props.name}</h1>
                 <p className="font-light md:text-lg">{props.issued}</p>
-                <img src={props.img} className="w-100 max-h-100 mx-auto p-5"></img>
+                <img src={props.img} className="w-100 max-h-100 mx-auto p-5" alt=''></img>
                 <p className="font-light text-gray-400">{props.desc}</p>
             </div>
             <div>

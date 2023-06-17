@@ -1,5 +1,5 @@
 import logo from '../assets/logo.svg';
-import resume from "../assets/Resume.pdf"
+import resume from "../assets/Linnell_Andrew_ResumePort.pdf"
 
 export default function Navbar() {
     return (

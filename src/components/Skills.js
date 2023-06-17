@@ -16,6 +16,7 @@ import css from "../assets/skills/css-icon.svg"
 import gcp from "../assets/skills/google-cloud-icon.svg"
 import firebase from "../assets/skills/google-firebase-icon.svg"
 import bootstarp from "../assets/skills/bootstrap-5-logo-icon.svg"
+import figma from "../assets/skills/figma.svg"
 
 
 // import hr from "../assets/curve-hr.svg"
@@ -37,19 +38,22 @@ export default function Skills() {
 
             <div className="mt-4" style={{ paddingBottom: "50px" }}>
                 <Slider {...settings}>
-                <SkillCard name="Python"  img={python} />
+                <SkillCard name="HTML 5"  img={html} />
+                <SkillCard name="CSS"  img={css} />
                 <SkillCard name="Javascript"  img={javascript} />
+                <SkillCard name="Figma"  img={figma} />
+
+                <SkillCard name="Bootstrap"  img={bootstarp} />
                 <SkillCard name="React"  img={reactIcon} />
                 <SkillCard name="Tailwind"  img={tailwind} />
                 <SkillCard name="Git"  img={git} />
                 <SkillCard name="Express"  img={express} />
-                <SkillCard name="HTML 5"  img={html} />
                 <SkillCard name="Node.js"  img={nodejs} />
                 <SkillCard name="MongoDB"  img={mongo} />
-                <SkillCard name="CSS"  img={css} />
                 <SkillCard name="Google Cloud"  img={gcp} />
                 <SkillCard name="Firebase"  img={firebase} />
-                <SkillCard name="Bootstrap"  img={bootstarp} />
+                <SkillCard name="Python"  img={python} />
+
 
 
                 </Slider>
